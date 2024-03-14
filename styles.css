@@ -175,7 +175,7 @@ footer{
     color: rgb(110, 110, 110);
     text-align: center;
 padding-top: 10px;}
-    .seccion-1 p{text-align: center;}
+    /*.seccion-1 p{text-align: center;}*/
     .seccion-1 .acerca-texto{text-align: center;
     padding-right: 10px;
 padding-bottom: 20px;}
@@ -204,6 +204,15 @@ padding-bottom: 20px;}
     }
     .navbar.active ul li{
         opacity: 1;
+    }
+    div .greeting{
+        position:relative;
+        display:flex;
+        background-color: rgb(202, 201, 201);
+        color: rgb(110, 110, 110);
+        font-family: "Madimi One", sans-serif;
+        font-style: normal;
+        padding: 15px;
     }
 }
 /*Formulario*/
@@ -347,3 +356,11 @@ padding-bottom: 20px;}
       }
 
   }
+.greeting{
+    display: flex;
+    background-color: #d1aba7;
+    color: #96433A;
+    font-family: "Madimi One", sans-serif;
+    font-style: normal;
+    padding: 15px;
+}
