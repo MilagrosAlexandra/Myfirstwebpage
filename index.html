@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera web</title>
+<link rel="stylesheet" href="styles.css">
+<script src="https://kit.fontawesome.com/fbb15aaa66.js" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/c9b87a4bee.js" crossorigin="anonymous"></script>
+<script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="index.html"><i class="fa-solid fa-headphones"></i></a>
+            <nav class="navbar">
+                <label for="check" class="checkbtn">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+                <input type="checkbox" id="check" />
+                <ul>
+                    <li><a href="index.html"><strong>Inicio</strong></a></li>
+                    <li><a href="index.html"><strong>Acerca de mi</strong></a></li>
+                    <li><a href="index.html"><strong>Trabajos</strong></a></li>
+                    <li><a href="index.html"><strong>Servicios</strong></a></li>
+                    <li><a href="index.html"><strong>Contacto</strong></a></li>
+                </ul>
+            </nav>
+        </header>
+        <main id="seccion-principal">
+            <section class="seccion-1">
+                <div class="acerca de">
+                    <h1>Acerca de mi</h1>
+                    <p><strong>Bienvenido a mi web</strong></p>
+                    <div class="acerca-texto">
+                    <p>Mi nombre es Milagros Nuñez, soy estudiante de la carrera de Ingeniería de Gestión Empresarial en la UPC. Dentro de mis mayores logros es ser becaria de Patronato BCP y pertenecer al grupo de Alto rendimiento de la universidad donde estudio. Actualmente me interesa mucho el mundo de la programación por lo que a siguiente página es fruto de lo que aprendo en el curso de  Programación Web Full Stack de EGG.</p></div>
+                </div>
+                <div class="acerca-imagen">
+                    <img src="img/86ec9ed42bc034b5b3e0a31a56cccdc3.jpg" alt="imagen perfil">
+                </div>
+
+            </section>
+            <section class="seccion-2">
+                <img src="img/100f5517bf75bd0afefe97b5216b4976.jpg" alt="carrusel">
+            </section>
+            <h1 class="titulo-trab">Trabajos</h1>
+            <section class="Trabajos">
+                <article class="Veguide">
+                    <img src="img/logo emprendimiento.png" alt="Veguide">
+                    <p><strong>Veguide</strong></p>
+                    <p>Para las personas con un estilo de vida vegano con dificultades de obtener información confiable y accesible, VegGuide es una aplicación que reduce hasta en un 50% el tiempo de búsqueda por medio de un riguroso filtro de necesidades según el usuario.</p>
+                    <p class="link"> <a href="http://https://sites.google.com/view/veguide/p%C3%A1gina-principal"><u>Leer más</u></a></p>
+                </article>
+                <article class="Radar">
+                    <img src="img/Radar Profesional - Logo (3).png" alt="Radar Pro">
+                    <p><strong>Radar Pro</strong></p>
+                    <p>Plataforma diseñada para brindar apoyo a los jóvenes en su camino hacia la educación superior y el desarrollo profesional ya que reúne una variedad de herramientas y recursos diseñados para ayudarlos a tomar decisiones educativas informadas y a construir un futuro sólido y satisfactorio.</p>
+                    <p class="link"> <a href="http://https://radarprofesional.wixsite.com/radar-pro"><u>Leer más</u></a></p>
+                </article>
+            </section>
+        </main>
+        <article class="form-header">
+        <div class="body">
+            <h1>Contacto</h1>
+            <p><em>¡Esperamos tu consulta!</em></p>
+            <form action="" method="get" class="formulario" id="form">
+                <div class="form-row">
+                    <label for="nombre">Nombre</label>
+                    <input id="nombre" name="nombre" type="text" />
+                  </div>
+                  <div class="form-row">
+                    <label for="email">Email</label>
+                    <input
+                      id="email"
+                      name="email"
+                      type="email"
+                      placeholder="pepe@gmail.com"
+                      required
+                    />
+                  </div>
+                  <div class="form-row">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje"></textarea>
+                   </div>
+                   <div class="form-row">
+                    <button type="submit" id="submit">Enviar</button>
+                </div>
+                <p class="alertas" id="alertas"></p>
+            </form>
+        </div>
+        </article>
+            <footer>
+            <h5><strong>Contacto</strong></h5>
+            <nav>
+                <ul>
+                    <li><strong>Correo: milagrosn194@gmail.com</strong></li>
+                    <li><strong>Teléfono: 931969507</strong></li>
+                </ul>
+            </nav>
+            <a href="https://www.linkedin.com/in/milagros-nu%C3%B1ez-acu%C3%B1a/"><i class="fa-solid fa-headphones"></i></a>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
